@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: Alvin Blog
+SEOTitle: 牛慧升的博客 | Alvin Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
+email: niuhuisheng2468@gmail.com
+description: "我也不知道该写些什么，跟我一起改变世界吧 | 牛慧升，软件开发工程师 & .NET，JAVA ，前端 | 这里是 牛慧升 Alvin的个人博客，一起改变世界吧。"
+keyword: "牛慧升,Alvin,AlvinNiu,桃西子牛,.NET，JAVA,VUE"
+url: "https://alvinniu.onloading.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+# weibo_username:     huxpro
+zhihu_username:     Alvin_china
+github_username:    AlvinNiu
 twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -65,8 +65,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: alvinniu.onloading.cn
 
 
 
@@ -91,10 +91,7 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
+    {    
         title: "乱序",
         href: "http://mida.re/"
     },{
