@@ -22,7 +22,7 @@ zhihu_username:     Alvin_china
 github_username:    AlvinNiu
 jianshu_username:   b208d4ce7561
 linkedin_username:   慧升-牛-3b3231111
-
+cnblogs_username:   alvin-niu
 
 
 
@@ -84,7 +84,7 @@ ga_domain: alvin.onloading.cn               # 默认的是 auto, 这里我是自
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
