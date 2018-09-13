@@ -1,12 +1,13 @@
 # Site settings
-title: "Alvin Blog"
-SEOTitle: "牛慧升的博客 | Alvin Blog"
+title: Alvin Blog
+SEOTitle: 牛慧升的博客 | Alvin Blog
 header-img: img/home-bg.jpg
-email: "niuhuisheng2468@gmail.com"
+email: niuhuisheng2468@gmail.com
 description: "我也不知道该写些什么，跟我一起改变世界吧 | 牛慧升，软件开发工程师 & .NET，JAVA ，前端 | 这里是 牛慧升 Alvin的个人博客，一起改变世界吧。"
 keyword: "牛慧升,Alvin,AlvinNiu,桃西子牛,.NET，JAVA,VUE"
 url: "https://alvin.onloading.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/AlvinNiu/AlvinNiu.github.io.git"
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -62,18 +63,18 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
- ba_track_id: 7b5f6665108ddb908fe0c8a89a2e3e12
+ba_track_id: 7b5f6665108ddb908fe0c8a89a2e3e12
 
 # Google Analytics
- ga_track_id: 'UA-125720595-1'            # Format: UA-xxxxxx-xx
- ga_domain: auto
+ga_track_id: 'UA-125720595-1'            # Format: UA-xxxxxx-xx
+ga_domain: alvin.onloading.cn
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-alvin-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -90,36 +91,9 @@ service-worker: true
 
 
 # Friends
-# friends: [
-#     {    
-#         title: "乱序",
-#         href: "http://mida.re/"
-#     },{
-#         title: "前端外刊评论",
-#         href: "http://qianduan.guru/"
-#     },{
-#         title: "天镶的博客",
-#         href: "http://lingyu.wang/"
-#     },{
-#         title: "Luke 的自留地",
-#         href: "http://hmqk1995.github.io"
-#     },{
-#         title: "Ebn's Blog",
-#         href: "http://ebnbin.com/"
-#     },{
-#         title: "SmdCn's Blog",
-#         href: "http://blog.smdcn.net"
-#     },{
-#         title: "David's Game",
-#         href: "https://www.ruoyaowu.com/"
-#     },{
-#         title: "DHong Say",
-#         href: "http://dhong.co"
-#     },{
-#         title: "尹峰以为",
-#         href: "http://ingf.github.io/"
-#     },{
-#         title: "解旻的博客",
-#         href: "http://xieminis.me/"
-#     }
-# ]
+ friends: [
+     {    
+         title: "博客园",
+         href: "https://www.cnblogs.com/alvin-niu/"
+     }
+ ]
