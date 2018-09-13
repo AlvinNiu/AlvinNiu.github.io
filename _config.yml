@@ -1,8 +1,8 @@
 # Site settings
-title: Alvin Blog
-SEOTitle: 牛慧升的博客 | Alvin Blog
+title: "Alvin Blog"
+SEOTitle: "牛慧升的博客 | Alvin Blog"
 header-img: img/home-bg.jpg
-email: niuhuisheng2468@gmail.com
+email: "niuhuisheng2468@gmail.com"
 description: "我也不知道该写些什么，跟我一起改变世界吧 | 牛慧升，软件开发工程师 & .NET，JAVA ，前端 | 这里是 牛慧升 Alvin的个人博客，一起改变世界吧。"
 keyword: "牛慧升,Alvin,AlvinNiu,桃西子牛,.NET，JAVA,VUE"
 url: "https://alvin.onloading.cn"              # your host, for absolute URL
