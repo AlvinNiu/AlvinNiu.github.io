@@ -7,7 +7,6 @@ author:       "Alvin"
 header-img:   "img/centos-publish-vue.jpg"
 header-mask:  0.3
 catalog:      true
-multilingual: true
 tags:
     - CentOS
     - 部署
