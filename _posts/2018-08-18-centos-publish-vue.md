@@ -57,7 +57,7 @@ pm2 start app.js
 
 #### 使用Nginx代理，使用域名访问
 
-**[如果Nginx安装不会请点击此处](https://www.cnblogs.com/alvin-niu/p/9502271.html)**
+**[如果Nginx安装不会请点击此处]({{ site.url }}/2018/08/18/centos-publish-vue/)**
 
 Nginx配置文件(/etc/nginx/nginx.conf)
 ```
