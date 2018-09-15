@@ -5,13 +5,11 @@ subtitle:     "多去尝试，发现问题，解决问题"
 date:         2018-08-18 12:00:00
 author:       "Alvin"
 header-img:   "img/centos-publish-vue.jpg"
-header-mask:  0.3
 catalog:      true
 tags:
     - CentOS
     - 部署
 	- VUE
-	- 前端
 ---
 
 
