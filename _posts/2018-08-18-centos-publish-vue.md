@@ -11,7 +11,8 @@ tags:
     - CentOS
     - 部署
     - VUE
-    - 前端
+	- 前端
+	- 技术
 ---
 
 
@@ -57,7 +58,7 @@ pm2 start app.js
 
 #### 使用Nginx代理，使用域名访问
 
-**[如果Nginx安装不会请点击此处]({{ site.url }}/2018/08/18/centos-publish-vue/)**
+**[如果Nginx安装不会请点击此处]({{ site.url }}/2018/08/19/centos-nginx/)**
 
 Nginx配置文件(/etc/nginx/nginx.conf)
 ```

@@ -4,14 +4,14 @@ title:        "centos系统下安装Nginx"
 subtitle:     "动手去做，很容易"
 date:         2018-08-19 09:00:00
 author:       "Alvin"
-header-img:   "img/bathroom-escape.jpg"
+header-img:   "img/centos-nginx.jpg"
 header-mask:  0.3
 catalog:      true
 tags:
     - Centos
     - Nginx
     - 安装
-    - alvin
+    - 技术
 ---
 
 **参考链接**
