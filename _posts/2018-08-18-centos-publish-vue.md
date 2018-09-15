@@ -7,9 +7,10 @@ author:       "Alvin"
 header-img:   "img/centos-publish-vue.jpg"
 catalog:      true
 tags:
-    - CentOS
+    - Centos
+    - VUE
     - 部署
-	- VUE
+    - 技术
 ---
 
 
