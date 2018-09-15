@@ -10,7 +10,9 @@ catalog:      true
 tags:
     - CentOS
     - 部署
-    - VUE
+	- VUE
+	- 前端
+	- 技术
 ---
 
 
