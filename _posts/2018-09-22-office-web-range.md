@@ -32,19 +32,21 @@ Ranges表示Excel的区域，例如一个单元格的区域是=A1,多个单元�
 * format，区域的字体格式，可以该表文字字体，颜色，也可以改变区域的背景色。
 * numberFormat,二维数组，区域的格式，有文本、日期、数值等，和Excel右击设置单元格的格式里所有的格式一致
 
-    * General     General
-    * Number      0
-    * Currency    $#,##0.00;[Red]$#,##0.00
-    * Accounting  _($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)
-    * Date        m/d/yy
-    * Time        [$-F400]h:mm:ss am/pm
-    * Percentage  0.00%
-    * Fraction    # ?/?
-    * Scientific  0.00E+00
-    * Text        @
-    * Special     ;;
-    * Custom      #,##0_);[Red](#,##0)
-    * 来源：[Stack Overflow上的回答](https://stackoverflow.com/questions/20648149/what-are-numberformat-options-in-excel-vba)
+  | 格式      |     值 |
+    | :-------- | --------:|
+   | General    | General  |                                      
+    | Number     | 0                                                     |
+    | Currency   | $#,##0.00;[Red]$#,##0.00                              |
+    | Accounting | _($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)    |
+    | Date       | m/d/yy                                                |
+    | Time       | [$-F400]h:mm:ss am/pm                                 |
+    | Percentage | 0.00%                                                 |
+    | Fraction   | # ?/?                                                 |
+    | Scientific | 0.00E+00                                              |
+    | Text       | @                                                     |
+    | Special    | ;;                                                    |
+    | Custom     | #,##0_);[Red](#,##0)                                  |
+    | 来源 | [Stack Overflow上的回答](https://stackoverflow.com/questions/20648149/what-are-numberformat-options-in-excel-vba) |
 
 ### Ranges的方法
 
@@ -64,19 +66,26 @@ Ranges表示Excel的区域，例如一个单元格的区域是=A1,多个单元�
 ```
 npm install excel-addin --save
 ```
+
 * 在index.html中假如office.js
+
 ```
   <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
 
 ```
+
 * 如果想要在Excel初始化时做些什么，还需要在main.js中假如下面的代码
+
 ```
 const Office = window.Office
 Office.initialize = () => {
     //初始化内容
 }
+
 ```
+
 * 操作Excel的行为均要写在特定方法里，即：
+
 ```
 //其中context表示Excel的上下文，操作Excel的东西均通过该参数
  Excel.run(function(context) {
@@ -88,6 +97,7 @@ Office.initialize = () => {
      return context.sync()
  }
 ```
+
 #### 写入
 
 ```
