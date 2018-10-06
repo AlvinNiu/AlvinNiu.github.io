@@ -114,6 +114,21 @@ Caused by: org.elasticsearch.ElasticsearchException: X-Pack is not supported and
 ```
 >解决方案：将jdk与jre安装成64位,[解决来源](https://discuss.elastic.co/t/x-pack-is-not-supported-and-machine-learning-is-not-available-for-windows-x86/85084)
 
+### 单台服务器部署多个节点
+
+[参考链接](https://juejin.im/entry/5b63b48e6fb9a04f8b787b72)
+
+* 将安装文件夹复制一份，最好取名一个为node1，一个为node2这样取名好分别
+* 修改node2的配置文件 config/elasticsearch.yml 
+```
+#给本节点取一个不同的名字
+node.name: node-2
+#由于集群中只有一个是主节点，所以把该节点设置为false
+node.master: false
+```
+* 依次运行两个节点的elasticsearch.bat文件
+* 出现图中所示，即第二个节点成功启动
+![如图所示]({{ site.url }}/img/postin/elastic2node.png)
 
 ## 安装Kibana
 
