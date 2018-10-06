@@ -58,7 +58,7 @@ elasticsearch.bat
 ### 安装ElasticSearch问题集锦
 
 
-1. 运行elasticsearch.bat 出现如下问题
+* 运行elasticsearch.bat 出现如下问题
 
 ```
 此时不应有 \Java\jdk1.8.0_181\bin\java.exe" -cp "!ES_CLASSPATH!" "org.elasticsearch.tools.launchers.JvmOptionsParser" "!ES_JVM_OPTIONS!" || echo jvm_options_parser_failed"`)
@@ -79,7 +79,7 @@ set ES_JVM_OPTIONS=%ES_PATH_CONF%\jvm.options
 for /F "usebackq delims=" %%a in (`CALL %JAVA% -cp "!ES_CLASSPATH!" "org.elasticsearch.tools.launchers.JvmOptionsParser" "!ES_JVM_OPTIONS!" ^|^| echo jvm_options_parser_failed`) do set JVM_OPTIONS=%%a
 @endlocal & set "MAYBE_JVM_OPTIONS_PARSER_FAILED=%JVM_OPTIONS%" & set ES_JAVA_OPTS=%JVM_OPTIONS:${ES_TMPDIR}=!ES_TMPDIR!% %ES_JAVA_OPTS%
 ```
-2. 出现如下错误
+* 出现如下错误
 
 
 ```
@@ -139,7 +139,7 @@ kibana.bat
 
 ## 插件们
 
-下面是ElasticSearch 5.X 版本才有的插件，6.X的插件都集成到Kibana与x-pack中了
+下面是ElasticSearch 5.X 版本才有的插件，6.X的这些插件都集成到Kibana与x-pack中了
 ![如图所示]({{ site.url }}/img/postin/elasticsearch5x-plugin.png)
 
 ### X-Pack
