@@ -19,6 +19,7 @@ tags:
 >为零基础的小白介绍如何使用vscode开发python项目。
 
 >在进行配置vscode必须要先安装Python，[安装教程](http://www.runoob.com/python3/python3-install.html)
+
 ## 安装
 
 * [下载地址](https://code.visualstudio.com/download)
@@ -58,8 +59,8 @@ tags:
 
 ## 开始编写python文件
 
-* 打开一个文件夹，此处最好是一个空文件夹。快捷键：Ctrl+K+O。
-* 创建一个main.py文件，点击图中的位置
+* 打开一个文件夹，此处最好是一个空文件夹。快捷键：`Ctrl+K+O`。
+* 创建一个`main.py`文件，点击图中的位置
 ![如图所示]({{ site.url }}/img/postin/vscode-python-createfile.png)
 * 输入下面的代码
 ```
@@ -70,10 +71,10 @@ print("Hello,World!")
 ## 调试项目
 
 有两种方式，
-* 第一种：在main.py文件中，右键->在终端中运行python文件，如图所示：
+* 第一种：在main.py文件中，`右键`->在终端中运行python文件，如图所示：
 ![如图所示]({{ site.url }}/img/postin/vscode-debug-python1.png)
 * 第二种
-    * 第一步，在debug中，添加配置，如图所示：
+    * 第一步，在debug中，点击`添加配置`，如图所示：
     ![如图所示]({{ site.url }}/img/postin/vscode-debug-addsetting.png)
     * 第二步，在点击添加配置之后，配置文件会自动天剑python的调试配置。此时,切换到main.py的窗口，按`F5`即可运行
 
