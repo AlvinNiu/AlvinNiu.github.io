@@ -70,6 +70,7 @@ nginx -s reload
 
 >HTTPS (Secure Hypertext Transfer Protocol)安全超文本传输协议，是一个安全通信通道，它基于HTTP开发用于在客户计算机和服务器之间交换信息。它使用安全套接字层(SSL)进行信息交换，简单来说它是HTTP的安全版,是使用TLS/SSL加密的HTTP协议
 
+[更多有关Https]({{site.url}}/2018/10/20/https-tsl-ssl/)
 ## http 与https的区别
 
 出自[详解 HTTPS、TLS、SSL、HTTP区别和关系](https://www.wosign.com/INFO/https_tls_ssl_http.htm)
@@ -87,3 +88,7 @@ nginx -s reload
 * 身份认证：第三方无法伪造服务端(客户端)身份
 
 其中，数据完整性和隐私性由TLS Record Protocol保证，身份认证由TLS Handshaking Protocols实现
+
+## 总结
+
+本来是解决完公司的问题之后，不知道原理很难受，所以就找了找原理，然后觉得自己学到不少东西，记录下来，以供自己以后复习。
