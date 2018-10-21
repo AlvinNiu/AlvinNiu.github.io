@@ -102,5 +102,13 @@ friends: [
     {    
          title: "烟台大学",
          href: "http://www.ytu.edu.cn/"
+     },
+    {    
+         title: "i跟踪",
+         href: "http://www.igenzong.com/"
+     },
+    {    
+         title: "亿海蓝",
+         href: "http://www.elane.com/"
      }
 ]
