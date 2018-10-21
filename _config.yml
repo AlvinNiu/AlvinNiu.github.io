@@ -3,8 +3,8 @@ title: Alvin Blog
 SEOTitle: 牛慧升的博客 | Alvin Blog
 header-img: img/home-bg.jpg
 email: niuhuisheng2468@gmail.com
-description: "我也不知道该写些什么, 跟我一起改变世界吧, 牛慧升, 软件开发工程师, .NET, JAVA , 前端, 这里是 牛慧升 Alvin的个人博客, 一起改变世界吧。"
-keyword: "牛慧升, niuhuisheng, Alvin, AlvinNiu, 桃西子牛, .NET, JAVA, VUE"
+description: "牛慧升,英文名称Alvin,毕业于烟台大学计算机学院,目前掌握的IT技能.NET,JAVA,前端,Office开发，就职于IPREON，职位：项目经理，这里是我的个人博客，这里会不定期更新我的技术博客，还会写一些有关世界或者我的感想。会总结自己学习的各种知识，以及看到的好东西。生活如此美丽，大家都没有理由放弃"
+keyword: "牛慧升, niuhuisheng, Alvin, AlvinNiu, 桃西子牛, .NET, JAVA, VUE,Office Web Add In,Shared Add In,博客，技术,随笔,python,vscode"
 url: "https://alvin.onloading.cn"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/AlvinNiu/AlvinNiu.github.io.git"
@@ -97,10 +97,10 @@ service-worker: true
 friends: [
   {    
          title: "IPREON-提升你的工作效率",
-         href: "https://ipreon.com/"
+         href: "https://www.ipreon.com/"
      },
     {    
-         title: "博客园",
-         href: "https://www.cnblogs.com/alvin-niu/"
+         title: "烟台大学",
+         href: "http://www.ytu.edu.cn/"
      }
 ]
