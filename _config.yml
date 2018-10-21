@@ -95,6 +95,10 @@ service-worker: true
 
 # Friends
 friends: [
+  {    
+         title: "IPREON-提升你的工作效率",
+         href: "https://ipreon.com/"
+     },
     {    
          title: "博客园",
          href: "https://www.cnblogs.com/alvin-niu/"
