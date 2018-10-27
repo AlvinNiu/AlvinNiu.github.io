@@ -4,7 +4,7 @@ title:        "Python基础学习笔记"
 subtitle:     "python数据分析"
 date:         2018-10-27 18:00:00
 author:       "Alvin"
-header-img:   "img/office-web.jpg"
+header-img:   "img/python-basic.jpg"
 header-mask:  0.3
 catalog:      true
 tags:
