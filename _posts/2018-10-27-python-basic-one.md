@@ -84,6 +84,7 @@ print(arr)
     * 第一种方法：使用()
     * 第二种，在函数里使用yield关键字，改关键字后面的值代表要算出来的值
     * 调用方法有两种，next与迭代
+
 ```
 # 第一种生成器方法
 g = (x*x for x in range(1, 11))
@@ -117,12 +118,15 @@ print(arr)
 
 ## 循环(只有两种)
 * for in
+
 ```
 # 输出从1到9
 for i in range(1, 10):
     print(i)
 ```
+
 * while
+
 ```
 # 输出从1到9
 i = 0
@@ -140,12 +144,15 @@ while(i < 9):
 
 ## 函数
 ### 定义函数 def
+
 ```
 # 取反函数
 def negation(result):
     return not result
 ```
+
 * 使用from ** import ** 导入
+
 ```
 # untils 为同目录下的文件名，negation为函数名
 from untils import negation
@@ -154,6 +161,7 @@ from untils import negation
 * 如果参数传入错误，会抛出TypeError
 * 函数执行完毕也没有`return`语句时，自动`return None`
 * 函数可以返回多个值，类型就是tuple
+
 ```
 # 返回多个值
 def return_more():
