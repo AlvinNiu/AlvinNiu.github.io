@@ -245,6 +245,118 @@ print(sorted(arr))  # [-4, -3, 1, 5, 6, 8]
 # 通过绝对值排序，得到的结果还是原来的值
 print(sorted(arr, key=abs))  # [1, -3, -4, 5, 6, 8]
 ```
+### 返回函数
+>将函数作为返回值，通常在我们知道这个函数是干嘛的，但是这个函数的部分代码目前还不想调用，所以就先返回，等想调用的时候再调用
+
+例子如下：
+```
+# 定义返回值为函数的函数
+def helloCN():
+    print('世界你好')
+
+    def helloEN():
+        print('Hello world!')
+    return helloEN
+
+
+# 使用中文说世界你好，此时我还不会英文
+print('此时我还不会英文')
+hellEN = helloCN()
+print('现在我会英文了')
+hellEN()
+
+```
+#### 闭包
+>概念：闭包就是能够读取其他函数内部变量的函数
+
+使用闭包时需要注意的问题是，返回函数不要引用任何循环变量，或者后续会发生变化的变量。理由是，返回函数返回的仅仅是一个函数，只有在调用的时候才会去访问函数中需要访问的变量。此时这些变量的值是什么就是什么。
+[例子引用地址](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431835236741e42daf5af6514f1a8917b8aaadff31bf000)
+
+```
+# 返回值为闭包函数
+def fun():
+    fs = []
+    for x in range(1, 4):
+        def f():
+            print('遍历第%s遍' % (x))
+        fs.append(f)
+    return fs
+
+
+f1, f2, f3 = fun()
+f1()  # 遍历第3遍
+f2()  # 遍历第3遍
+f3()  # 遍历第3遍
+```
+通过例子可知，上述3个函数引用的都是x变量，最终x=3所以输出结果都一样
+
+### 匿名函数
+>匿名函数就是没有名字的函数，在开发过程中，有些函数不需要重用，并且代码就一行，所以没必要定义一个函数，所以此时匿名函数就派上用场了。
+
+使用关键词`lambda`来表示匿名函数
+```
+# 使用lambda作为map函数的参数
+g = map(lambda x: x*x, range(1, 11))
+print(list(g))  # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+特性：
+* 只有一个表达式，该表达式的结果就是这个匿名函数的返回值
+* 没有return
+### 装饰器 Decorator
+>所谓装饰器，就是在原来函数的基础上，增加代码，但是不能修改原来函数的代码
+
+```
+import datetime
+# 增加一个装饰器，表示函数被调用的时间
+
+
+def fun_time(fun):
+    print(datetime.datetime.now())
+    return fun
+
+
+# 将装饰器安装到fun函数上
+@fun_time
+def fun():
+    print('fun函数被调用')
+
+
+# 调用fun函数
+fun()
+
+```
+### 偏函数
+>所谓偏函数，就是在一个函数有很多参数，但是我们每次使用只用到其中的几个，其他参数使用默认时。我们可以利用偏函数实现这一点。
+* 偏函数在`functoos`包了，使用之前要先导入该包
+
+```
+# 引入包
+import functools
+
+
+def print_person(name, sex, address):
+    print('姓名：{0}，性别：{1}，地址：{2}'.format(name, sex, address))
+
+
+# 像下面这样，后面两个参数基本一样，我不想调用的时候重复输入
+print_person('Alvin', 'Man', 'SHANDONG')
+print_person('Tom', 'Man', 'SHANDONG')
+print_person('Ted', 'Man', 'SHANDONG')
+
+# 改进
+print_person_man_sd = functools.partial(
+    print_person, sex='Man', address='SHANDONG')
+print('改进后！！！')
+print_person_man_sd('Alvin')
+print_person_man_sd('Tom')
+print_person_man_sd('Tom')
+```
+
+## 模块
+* `__xxx__`:特殊变量
+* `_xxx`:私有变量与函数
+* `xxx`:共有的变量与函数，模块外直接调用
+* `__author__`:标记模块作者
 
 ## 参考链接
 [廖雪峰官网](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
