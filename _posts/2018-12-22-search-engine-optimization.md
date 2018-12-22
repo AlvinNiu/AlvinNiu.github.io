@@ -76,7 +76,7 @@ tags:
 > 在有些网站中有网站地图，根据自己的网站结构，制作网站地图，让你的网站对搜索引擎更加友好化。让搜索引擎能过 SiteMap 就可以访问整个站点上的所有网页和栏目。最好有两套 siteMap,一套用户方便客户快速查找站点信息（html 格式），另一套方便搜索引擎得知网站的更新频率、更新时间、页面权重（xml 格式）。所建立的 sitemap 要和你网站的实际情况相符合 
 
 网站地图如图所示：
-![如图所示](https://github.com/AlvinNiu/images/blob/master/seo-search-menu.png?raw=true)
+![如图所示]({{ site.url }}/img/postin/seo-search-menu.png)
 
 - 网站的url设计
 
