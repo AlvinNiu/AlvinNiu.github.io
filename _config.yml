@@ -99,16 +99,17 @@ friends: [
          title: "IPREON-提升你的工作效率",
          href: "https://www.ipreon.com/"
      },
+   
     {    
+         title: "IPREON-数据平台",
+         href: "https://datahub.ipreon.com/viewer/2010000242/?year=2018&period=FY"
+     },
+    {    
+         title: "IPREON Add In",
+         href: "https://appsource.microsoft.com/en-us/product/office/WA104381934?src=office&tab=Overview"
+     },
+      {    
          title: "烟台大学",
          href: "http://www.ytu.edu.cn/"
-     },
-    {    
-         title: "i跟踪",
-         href: "http://www.igenzong.com/"
-     },
-    {    
-         title: "亿海蓝",
-         href: "http://www.elane.com/"
      }
 ]
