@@ -108,6 +108,18 @@ friends: [
          title: "IPREON Add In",
          href: "https://appsource.microsoft.com/en-us/product/office/WA104381934?src=office&tab=Overview"
      },
+     {    
+         title: "新城控股",
+         href: "https://datahub.ipreon.com/viewer/2010013810/?year=2018&period=FY"
+     },
+ {    
+         title: "獐子岛",
+         href: "https://datahub.ipreon.com/viewer/2010010615/?year=2018&period=FY"
+     },    
+     {    
+         title: "格力电器",
+         href: "https://datahub.ipreon.com/viewer/2010000463/?year=2018&period=FY"
+     },   
       {    
          title: "烟台大学",
          href: "http://www.ytu.edu.cn/"
