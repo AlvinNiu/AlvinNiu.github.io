@@ -4,7 +4,7 @@ title:        "《银河补习班》-观后感"
 subtitle:     "你要一直想，一直想"
 date:         2019-10-04 09:00:00
 author:       "Alvin"
-header-img:   "img/2019-10-04-yinhebuxiban.jpg"
+header-img:   "img/yinhebuxiban.webp"
 header-mask:  0.3
 catalog:      true
 tags:
