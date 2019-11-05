@@ -3,7 +3,7 @@ title: Alvin Blog
 SEOTitle: 牛慧升的博客 | Alvin Blog
 header-img: img/home-bg.jpg
 email: niuhuisheng2468@gmail.com
-description: "牛慧升,英文名称Alvin,毕业于烟台大学计算机学院,目前掌握的IT技能.NET,JAVA,前端,Office开发，就职于IPREON，职位：项目经理，这里是我的个人博客，这里会不定期更新我的技术博客，还会写一些有关世界或者我的感想。会总结自己学习的各种知识，以及看到的好东西。生活如此美丽，大家都没有理由放弃"
+description: "牛慧升,英文名称Alvin,毕业于烟台大学计算机学院,目前掌握的IT技能.NET,JAVA,前端,Office开发，就职于平安普惠，职位：高级开发工程师，这里是我的个人博客，这里会不定期更新我的技术博客，还会写一些有关世界或者我的感想。会总结自己学习的各种知识，以及看到的好东西。生活如此美丽，大家都没有理由放弃"
 keyword: "牛慧升, niuhuisheng, Alvin, AlvinNiu, 桃西子牛, .NET, JAVA, VUE,Office Web Add In,Shared Add In,博客，技术,随笔,python,vscode"
 url: "https://alvin.onloading.cn"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/AlvinNiu/AlvinNiu.github.io.git"
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "生活如此美丽"
+sidebar-about-description: "永远热泪盈眶"
 sidebar-avatar: /img/avatar-alvin-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -96,34 +96,9 @@ service-worker: true
 # Friends
 friends: [
   {    
-         title: "IPREON-提升你的工作效率",
-         href: "https://www.ipreon.com/"
-     },
-   
-    {    
-         title: "IPREON-数据平台",
-         href: "https://datahub.ipreon.com/viewer/2010000242/?year=2018&period=FY"
-     },
-    {    
-         title: "IPREON Add In",
-         href: "https://appsource.microsoft.com/en-us/product/office/WA104381934?src=office&tab=Overview"
-     },
-     {    
-         title: "新城控股",
-         href: "https://datahub.ipreon.com/viewer/2010013810/?year=2018&period=FY"
-     },
-     {    
-         title: "中国平安",
-         href: "https://datahub.ipreon.com/viewer/2010000252/?year=2018&period=FY"
-     },
- {    
-         title: "獐子岛",
-         href: "https://datahub.ipreon.com/viewer/2010010615/?year=2018&period=FY"
-     },    
-     {    
-         title: "格力电器",
-         href: "https://datahub.ipreon.com/viewer/2010000463/?year=2018&period=FY"
-     },   
+         title: "colin zhang blog",
+         href: "http://edgecode.ink/"
+     }, 
       {    
          title: "烟台大学",
          href: "http://www.ytu.edu.cn/"
