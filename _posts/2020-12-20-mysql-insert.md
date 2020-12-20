@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "mysql insert 语句的用法"
+title:        "MYSQL INSERT 语句的用法"
 subtitle:     "插入数据真的有那么简单吗？"
 date:         2020-12-20 09:00:00
 author:       "Alvin"
@@ -9,7 +9,7 @@ header-mask:  0.3
 catalog:      true
 tags:
     - 技术
-    - mysql
+    - MYSQL
     - INSERT
 ---
 

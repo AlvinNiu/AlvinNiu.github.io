@@ -9,7 +9,8 @@ header-mask:  0.3
 catalog:      true
 tags:
 	- 经济
-	- 股票
+	- 货币信用框架
+	- 美林时钟
 ---
 
 ## 前言
