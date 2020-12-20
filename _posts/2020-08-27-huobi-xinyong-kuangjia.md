@@ -8,9 +8,8 @@ header-img:   "img/jinrong.jpg"
 header-mask:  0.3
 catalog:      true
 tags:
-	- 经济
-	- 货币信用框架
-	- 美林时钟
+    - 经济
+    - 货币
 ---
 
 ## 前言
