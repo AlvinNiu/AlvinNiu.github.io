@@ -49,7 +49,7 @@ tags:
 - 宽信用：社融总量余额同比增速**加快**为宽信用
 - 紧信用：社融总量余额同比增速**减慢**为紧信用
 
-![image-20200828115646483](/Users/niuhuisheng/Library/Application Support/typora-user-images/image-20200828115646483.png)
+![image-20200828115646483]({{ site.url }}/img/postin/image-20200828115646483.png)
 
 
 
