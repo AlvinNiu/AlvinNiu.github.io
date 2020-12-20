@@ -2,18 +2,14 @@
 layout:       post
 title:        "货币信用框架"
 subtitle:     "学习总结"
-date:         2020-08-25 09:00:00
+date:         2020-08-27 09:00:00
 author:       "Alvin"
 header-img:   "img/jinrong.jpg"
 header-mask:  0.3
 catalog:      true
 tags:
-    - 经济
+	- 经济
 	- 股票
-	- 债券
-	- 商品
-	- 现金
-    - 基本概念
 ---
 
 ## 前言

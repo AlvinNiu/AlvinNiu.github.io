@@ -10,10 +10,9 @@ catalog:      true
 tags:
     - 技术
     - mysql
-    - insert
-	- insert on duplicate key update
-	- insert delayed statement
+    - INSERT
 ---
+
 ## 前言
 
 > 工作中遇到一个很简单又很隐蔽的bug，这个时候才发现自己对数据库的增删改查仅仅停留在会有的层面，对原理一无所知。bug的场景是，在执行alert语句时，如果有dml（insert on duplicate key update ）执行会报唯一键出现重复值的异常。
