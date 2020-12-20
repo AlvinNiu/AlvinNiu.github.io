@@ -1,16 +1,15 @@
 ---
 layout:       post
 title:        "基金中的相关概念"
-subtitle:     "学习一项技能"
-date:         2020-08-25 12:00:00
+subtitle:     "基金基础"
+date:         2020-08-25 09:00:00
 author:       "Alvin"
 header-img:   "img/yinhebuxiban.webp"
 header-mask:  0.3
 catalog:      true
 tags:
-    - 换手率
     - 基金
-	- 北向资金
+    - 基本概念
 ---
 
 ## 前言
