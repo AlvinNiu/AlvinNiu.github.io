@@ -13,11 +13,6 @@ tags:
     - insert
 	- insert on duplicate key update
 	- insert delayed statement
-
-
-
-
-
 ---
 
 ## 前言
@@ -28,9 +23,7 @@ tags:
 
 ## mysql[官网问题描述](https://bugs.mysql.com/bug.php?id=76895)
 
-> ```mysql
 > When running an online ALTER TABLE operation, the thread that runs the ALTER TABLE operation will apply an “online log” of DML operations that were run concurrently on the same table from other connection threads. When the DML operations are applied, it is possible to encounter a duplicate key entry error (ERROR 1062 (23000): Duplicate entry), even if the duplicate entry is only temporary and would be reverted by a later entry in the “online log”. This is similar to the idea of a foreign key constraint check in InnoDB in which constraints must hold during a transaction.
-> ```
 
 **原因不详-_-,如果有哪位大佬知道也请教教我**（912806786@qq.com)
 
