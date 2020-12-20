@@ -4,7 +4,7 @@ title:        "金融学习路线图"
 subtitle:     "学习一项技能"
 date:         2020-08-22 09:00:00
 author:       "Alvin"
-header-img:   "img/yinhebuxiban.webp"
+header-img:   "img/jinrong.jpg"
 header-mask:  0.3
 catalog:      true
 tags:

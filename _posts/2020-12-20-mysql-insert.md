@@ -2,19 +2,18 @@
 layout:       post
 title:        "mysql insert 语句的用法"
 subtitle:     "插入数据真的有那么简单吗？"
-date:         2020-12-20 16:00:00
+date:         2020-12-20 09:00:00
 author:       "Alvin"
-header-img:   "img/yinhebuxiban.webp"
+header-img:   "img/hay-s-YXg0VPwLwnM-unsplash.jpg"
 header-mask:  0.3
 catalog:      true
 tags:
-	- 技术
+    - 技术
     - mysql
     - insert
 	- insert on duplicate key update
 	- insert delayed statement
 ---
-
 ## 前言
 
 > 工作中遇到一个很简单又很隐蔽的bug，这个时候才发现自己对数据库的增删改查仅仅停留在会有的层面，对原理一无所知。bug的场景是，在执行alert语句时，如果有dml（insert on duplicate key update ）执行会报唯一键出现重复值的异常。

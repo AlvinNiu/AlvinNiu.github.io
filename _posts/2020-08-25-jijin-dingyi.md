@@ -4,7 +4,7 @@ title:        "基金中的相关概念"
 subtitle:     "基金基础"
 date:         2020-08-25 09:00:00
 author:       "Alvin"
-header-img:   "img/yinhebuxiban.webp"
+header-img:   "img/jinrong.jpg"
 header-mask:  0.3
 catalog:      true
 tags:

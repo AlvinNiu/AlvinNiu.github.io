@@ -2,17 +2,18 @@
 layout:       post
 title:        "货币信用框架"
 subtitle:     "学习总结"
-date:         2020-08-25 12:00:00
+date:         2020-08-25 09:00:00
 author:       "Alvin"
-header-img:   "img/yinhebuxiban.webp"
+header-img:   "img/jinrong.jpg"
 header-mask:  0.3
 catalog:      true
 tags:
-	- 经济
-    - 股票
-    - 债券
+    - 经济
+	- 股票
+	- 债券
 	- 商品
 	- 现金
+    - 基本概念
 ---
 
 ## 前言
@@ -29,13 +30,13 @@ tags:
 
 但我还是觉得狐狸画的时钟更好看
 
-![狐狸的图](/Users/niuhuisheng/Library/Application Support/typora-user-images/image-20200827231606987.png)
+![狐狸的图]({{ site.url }}/img/postin/image-20200827231606987.png)
 
 ### 理解
 
 > 美林时钟选用两个指标（经济增长/通货膨胀），划分了四个经济阶段（衰退/复苏/过热/滞胀），四个经济阶段更适合四种投资类型
 
-![image-20200827232607109](/Users/niuhuisheng/Library/Application Support/typora-user-images/image-20200827232607109.png)
+![image-20200827232607109]({{ site.url }}/img/postin/image-20200827232607109.png)
 
 ## 国内的美林时钟
 
